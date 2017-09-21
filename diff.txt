@@ -1,0 +1,256 @@
+5c5
+<         "layer0.tint": [235, 237, 239],
+---
+>         "layer0.tint": [39, 40, 33],
+28a29
+>         // row background color when hover over
+31c32
+<         "layer0.tint": [69, 74, 85],
+---
+>         "layer0.tint": [207, 207, 189],
+34a36
+>         // row background color when the tab is selected
+37,38c39,40
+<         "layer0.tint": [199, 203, 209],
+<         "layer0.opacity": 1.0,
+---
+>         "layer0.tint": [207, 207, 189],
+>         "layer0.opacity": 0.1,
+42c44
+<         "fg": [128, 128, 128],
+---
+>         "fg": [207, 207, 194],
+45c47
+<         "shadow_color": [255, 255, 255, 0.36],
+---
+>         "shadow_color": [29, 29, 22, 0.36],
+48a51
+>         // Text color and size of content in tree control
+50c53
+<         "fg": [48, 48, 48],
+---
+>         "fg": [230, 230, 230],
+56c59
+<         "fg": [24, 24, 24],
+---
+>         "fg": [207, 207, 194],
+88a92
+>         // open / closed triangles
+90,91c94,95
+<         "layer0.texture": "Theme - Default/common/light/disclosure_unexpanded.png",
+<         "layer0.opacity": { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
+---
+>         "layer0.texture": "Theme - Default/common/dark/disclosure_unexpanded.png",
+>         "layer0.opacity": { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" },
+97c101
+<         "layer0.texture": "Theme - Default/common/light/disclosure_expanded.png",
+---
+>         "layer0.texture": "Theme - Default/common/dark/disclosure_expanded.png",
+106,107c110,111
+<         "layer0.texture": "Theme - Default/common/light/folder_closed.png",
+<         "layer0.opacity": 0.3,
+---
+>         "layer0.texture": "Theme - Default/common/dark/folder_closed.png",
+>         "layer0.opacity": 0.6,
+113,114c117,118
+<         "layer0.texture": "Theme - Default/common/light/folder_open.png",
+<         "layer0.opacity": 0.3,
+---
+>         "layer0.texture": "Theme - Default/common/dark/folder_open.png",
+>         "layer0.opacity": 0.6,
+123,142c127,146
+<                 "Theme - Default/common/light/folder_loading_01.png",
+<                 "Theme - Default/common/light/folder_loading_02.png",
+<                 "Theme - Default/common/light/folder_loading_03.png",
+<                 "Theme - Default/common/light/folder_loading_04.png",
+<                 "Theme - Default/common/light/folder_loading_05.png",
+<                 "Theme - Default/common/light/folder_loading_06.png",
+<                 "Theme - Default/common/light/folder_loading_07.png",
+<                 "Theme - Default/common/light/folder_loading_08.png",
+<                 "Theme - Default/common/light/folder_loading_09.png",
+<                 "Theme - Default/common/light/folder_loading_10.png",
+<                 "Theme - Default/common/light/folder_loading_11.png",
+<                 "Theme - Default/common/light/folder_loading_12.png",
+<                 "Theme - Default/common/light/folder_loading_13.png",
+<                 "Theme - Default/common/light/folder_loading_14.png",
+<                 "Theme - Default/common/light/folder_loading_15.png",
+<                 "Theme - Default/common/light/folder_loading_16.png",
+<                 "Theme - Default/common/light/folder_loading_17.png",
+<                 "Theme - Default/common/light/folder_loading_18.png",
+<                 "Theme - Default/common/light/folder_loading_19.png",
+<                 "Theme - Default/common/light/folder_loading_20.png",
+---
+>                 "Theme - Default/common/dark/folder_loading_01.png",
+>                 "Theme - Default/common/dark/folder_loading_02.png",
+>                 "Theme - Default/common/dark/folder_loading_03.png",
+>                 "Theme - Default/common/dark/folder_loading_04.png",
+>                 "Theme - Default/common/dark/folder_loading_05.png",
+>                 "Theme - Default/common/dark/folder_loading_06.png",
+>                 "Theme - Default/common/dark/folder_loading_07.png",
+>                 "Theme - Default/common/dark/folder_loading_08.png",
+>                 "Theme - Default/common/dark/folder_loading_09.png",
+>                 "Theme - Default/common/dark/folder_loading_10.png",
+>                 "Theme - Default/common/dark/folder_loading_11.png",
+>                 "Theme - Default/common/dark/folder_loading_12.png",
+>                 "Theme - Default/common/dark/folder_loading_13.png",
+>                 "Theme - Default/common/dark/folder_loading_14.png",
+>                 "Theme - Default/common/dark/folder_loading_15.png",
+>                 "Theme - Default/common/dark/folder_loading_16.png",
+>                 "Theme - Default/common/dark/folder_loading_17.png",
+>                 "Theme - Default/common/dark/folder_loading_18.png",
+>                 "Theme - Default/common/dark/folder_loading_19.png",
+>                 "Theme - Default/common/dark/folder_loading_20.png",
+152c156
+<         "layer0.texture": "Theme - Default/common/light/symlink.png",
+---
+>         "layer0.texture": "Theme - Default/common/dark/symlink.png",
+156a161
+>         // Transparency of icons in tree control
+158c163
+<         "layer0.opacity": 0.5,
+---
+>         "layer0.opacity": 1.0,
+184c189
+<         "tint_modifier": [255, 255, 255, 0.32]
+---
+>         "tint_modifier": [70, 70, 70, 0.32]
+283a289
+>         // tab text color - unselected tab
+285c291
+<         "fg": [152, 152, 152],
+---
+>         "fg": [200, 200, 200],
+302a309
+>         // tab text color - selected tab
+305c312
+<         "fg": [255, 255, 255]
+---
+>         "fg": [255, 197, 25]
+408,409c415,416
+<         "layer0.tint": [235, 237, 239],
+<         "layer0.opacity": 1.0,
+---
+>         "layer0.tint": [128, 0, 0],
+>         "layer0.opacity": 0.9,
+412a420
+>         // Command-p
+415c423
+<         "layer0.tint": [235, 237, 239],
+---
+>         "layer0.tint": [39, 40, 33],
+419a428
+>         // COmmand-shift-p
+421,422c430,431
+<         "layer0.tint": [199, 203, 209],
+<         "layer0.opacity": 0.0
+---
+>         "layer0.tint": [72, 72, 72],
+>         "layer0.opacity": 1.0
+427c436
+<         "layer0.opacity": 1.0
+---
+>         "layer0.opacity": 0.5
+431c440
+<         "layer0.tint": [199, 203, 209],
+---
+>         "layer0.tint": [72, 72, 72],
+437c446
+<         "layer0.opacity": 1.0
+---
+>         "layer0.opacity": 0.5
+441,444c450,453
+<         "fg": [69, 74, 85],
+<         "match_fg": [0, 0, 0],
+<         "selected_fg": [46, 49, 56],
+<         "selected_match_fg": [0, 0, 0]
+---
+>         "fg": [230, 230, 230],
+>         "match_fg": [255, 197, 25],
+>         "selected_fg": [230, 230, 230],
+>         "selected_match_fg": [255, 197, 25]
+494,495c503,504
+<         "viewport_color": [128, 128, 128, 0.25],
+<         "viewport_opacity": { "target": 0.0, "speed": 4.0, "interpolation": "smoothstep" },
+---
+>         "viewport_color": [128, 0, 0, 0.4],
+>         "viewport_opacity": { "target": 0.4, "speed": 4.0, "interpolation": "smoothstep" },
+501,502c510,511
+<         "viewport_color": [128, 128, 128, 0.25],
+<         "viewport_opacity": { "target": 1.0, "speed": 20.0, "interpolation": "smoothstep" },
+---
+>         "viewport_color": [128, 0, 0, 0.5],
+>         "viewport_opacity": { "target": 0.5, "speed": 20.0, "interpolation": "smoothstep" },
+599c608
+<     // Panels
+---
+>     // Panels Command-f
+602c611
+<         "layer0.tint": [199, 203, 209],
+---
+>         "layer0.tint": [128, 0, 0],
+619,620c628,629
+<         "layer0.texture": "Theme - Default/common/light/panel_close.png",
+<         "layer0.opacity": { "target": 0.4, "speed": 4.0, "interpolation": "smoothstep" },
+---
+>         "layer0.texture": "Theme - Default/common/dark/panel_close.png",
+>         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
+626c635
+<         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
+---
+>         "layer0.opacity": { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },
+817,818c826,827
+<         "layer0.texture": "Theme - Default/common/light/button.png",
+<         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
+---
+>         "layer0.texture": "Theme - Default/common/dark/button.png",
+>         "layer0.opacity": { "target": 0.2, "speed": 4.0, "interpolation": "smoothstep" },
+826c835
+<         "layer0.opacity": { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" },
+---
+>         "layer0.opacity": { "target": 0.4, "speed": 4.0, "interpolation": "smoothstep" },
+831c840
+<         "layer0.opacity": { "target": 1.0, "speed": 4.0, "interpolation": "smoothstep" },
+---
+>         "layer0.opacity": { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" },
+844,845c853,854
+<         "layer0.texture": "Theme - Default/common/light/icon_button_highlight.png",
+<         "layer0.opacity": 0.0,
+---
+>         "layer0.texture": "Theme - Default/common/dark/icon_button_highlight.png",
+>         "layer0.opacity": 0.3,
+852c861
+<         "layer0.opacity": 1.0
+---
+>         "layer0.opacity": 0.6
+1000a1010
+>         // Text color in status bar and buttons
+1002c1012
+<         "fg": [64, 64, 64],
+---
+>         "fg": [230, 230, 230],
+1018a1029
+>         // tooltip background
+1020c1031
+<         "layer0.tint": [255, 255, 255],
+---
+>         "layer0.tint": [128, 0, 0],
+1024a1036
+>         // tooltip text 
+1027c1039
+<         "fg": [64, 64, 64]
+---
+>         "fg": [230, 230, 230]
+1033c1045
+<         "layer0.tint": [171, 177, 186],
+---
+>         "layer0.tint": [39, 40, 33],
+1039,1040c1051,1052
+<         "layer0.texture": "Theme - Default/common/light/panels_button.png",
+<         "layer0.opacity": { "target": 0.4, "speed": 4.0, "interpolation": "smoothstep" },
+---
+>         "layer0.texture": "Theme - Default/common/dark/panels_button.png",
+>         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
+1046c1058
+<         "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" },
+---
+>         "layer0.opacity": { "target": 0.8, "speed": 4.0, "interpolation": "smoothstep" },
