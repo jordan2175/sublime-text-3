@@ -1,9 +1,9 @@
 # sublime text 3 - theme #
 
 
-This is a Theme file for Sublime Text 3 (build 3143+) that enable the sidebar to match the colors of the Monokai color scheme 
+This is a theme file for Sublime Text 3 (build 3143+) that enable the sidebar to match the colors of the Monokai color scheme 
 
-## How I made this##
+## How I made this ##
 
 ```
 cp /Applications/Sublime Text.app/Contents/MacOS/Packages/Theme - Default.sublime-package /tmp
