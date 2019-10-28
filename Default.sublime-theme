@@ -425,7 +425,7 @@
         "dark_content": false,
     },
     {
-        // COmmand-shift-p
+        // Command-shift-p
         "class": "mini_quick_panel_row",
         "layer0.tint": [72, 72, 72],
         "layer0.opacity": 1.0
@@ -637,8 +637,10 @@
 
     // Dialogs
     {
+    	// Old values 235, 237, 239 are to light and you can not read pop up 
+    	// dialogs like software updates.
         "class": "dialog",
-        "layer0.tint": [235, 237, 239],
+        "layer0.tint": [39, 40, 33],
         "layer0.opacity": 1.0
     },
     {
@@ -1074,3 +1076,4 @@
         "shadow_offset": [0, 1]
     },
 ]
+
