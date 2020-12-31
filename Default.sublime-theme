@@ -1,8 +1,9 @@
 [
     // Side Bar
     {
+        // Sidebar background 
         "class": "sidebar_container",
-        "layer0.tint": [39, 40, 33],
+        "layer0.tint": [28, 0, 13],
         "layer0.opacity": 1.0,
         "content_margin": 0,
     },
@@ -30,18 +31,19 @@
         "class": "tree_row",
         "attributes": ["selectable", "hover"],
         "layer0.tint": [207, 207, 189],
-        "layer0.opacity": 0.1,
+        "layer0.opacity": 0.3,
     },
     {
         // row background color when the tab is selected
         "class": "tree_row",
         "attributes": ["selected"],
         "layer0.tint": [207, 207, 189],
-        "layer0.opacity": 0.1,
+        "layer0.opacity": 0.3,
     },
     {
+        // Heading foreground "FOLDERS"
         "class": "sidebar_heading",
-        "fg": [207, 207, 194],
+        "fg": [255, 197, 25],
         "font.size": 13,
         "font.bold": true,
         "shadow_color": [29, 29, 22, 0.36],
@@ -54,38 +56,16 @@
         "font.size": 12
     },
     {
+        // Row text color when the tab is selected 
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "fg": [207, 207, 194],
+        "fg": [247, 247, 0],
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
         "settings": ["bold_folder_labels"],
         "font.bold": true
-    },
-    // Open Files Icons
-    {
-        "class": "close_button",
-        "layer0.texture": "Theme - Default/common/light/open_file_close.png",
-        "layer0.opacity": { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
-        "layer0.tint": [255, 255, 255],
-        "content_margin": [8, 8],
-    },
-    {
-        "class": "close_button",
-        "attributes": ["hover"],
-        "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" }
-    },
-    {
-        "class": "close_button",
-        "attributes": ["dirty"],
-        "layer0.texture": "Theme - Default/common/light/open_file_dirty.png",
-    },
-    {
-        "class": "close_button",
-        "attributes": ["hover", "dirty"],
-        "layer0.texture": "Theme - Default/common/light/open_file_close.png",
     },
     // Folder & File Icons
     {
@@ -163,7 +143,29 @@
         "layer0.opacity": 1.0,
         "content_margin": [9, 8]
     },
-
+    // Tabs Open Files Icons
+    {
+        "class": "close_button",
+        "layer0.texture": "Theme - Default/common/light/open_file_close.png",
+        "layer0.opacity": { "target": 0.3, "speed": 4.0, "interpolation": "smoothstep" },
+        "layer0.tint": [255, 255, 255],
+        "content_margin": [8, 8],
+    },
+    {
+        "class": "close_button",
+        "attributes": ["hover"],
+        "layer0.opacity": { "target": 0.6, "speed": 4.0, "interpolation": "smoothstep" }
+    },
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
+        "layer0.texture": "Theme - Default/common/light/open_file_dirty.png",
+    },
+    {
+        "class": "close_button",
+        "attributes": ["hover", "dirty"],
+        "layer0.texture": "Theme - Default/common/light/open_file_close.png",
+    },
     // Tabs
     {
         "class": "tabset_control",
@@ -179,21 +181,25 @@
         "mouse_wheel_switch": true
     },
     {
+        // Tab area background for dark backgrounds
         "class": "tabset_control",
         "attributes": ["file_dark"],
         "tint_modifier": [255, 255, 255, 0.28]
     },
     {
+        // Tab area background for medium dark backgrounds
         "class": "tabset_control",
         "attributes": ["file_medium_dark"],
-        "tint_modifier": [70, 70, 70, 0.32]
+        "tint_modifier": [28, 0, 13, 0.5]
     },
     {
+        // Tab area background for medium backgrounds
         "class": "tabset_control",
         "attributes": ["file_medium"],
         "tint_modifier": [0, 0, 0, 0.36]
     },
     {
+        // Tab area background for light backgrounds
         "class": "tabset_control",
         "attributes": ["file_light"],
         "tint_index": 0,
@@ -259,6 +265,7 @@
         "tint_modifier": [255, 255, 255, 0.12]
     },
     {
+        // Tab background color for none selected tabs
         "class": "tab_control",
         "attributes": ["file_medium_dark"],
         "tint_modifier": [255, 255, 255, 0.12],
@@ -269,6 +276,7 @@
         "tint_modifier": [0, 0, 0, 0.18]
     },
     {
+        // Tab background color for selected tab, currently invisible
         "class": "tab_control",
         "attributes": ["selected"],
         "layer3.opacity": 0.2,
@@ -491,6 +499,7 @@
         "parents": [{"class": "edit_window", "attributes": ["file_dark"]}],
         "border_color": ["background", 255, 255, 255, 0.28],
     },
+    // Minimap 
     {
         "class": "minimap_control",
         "settings": ["always_show_minimap_viewport"],
@@ -498,17 +507,19 @@
         "viewport_opacity": 1.0,
     },
     {
+        // minimap highlighted area "see through red"
         "class": "minimap_control",
         "settings": ["!always_show_minimap_viewport"],
-        "viewport_color": [128, 0, 0, 0.4],
-        "viewport_opacity": { "target": 0.4, "speed": 4.0, "interpolation": "smoothstep" },
+        "viewport_color": [128, 0, 0, 0.5],
+        "viewport_opacity": { "target": 0.5, "speed": 4.0, "interpolation": "smoothstep" },
     },
     {
+        // minimap highlighted area "see through red" when you hover over it
         "class": "minimap_control",
         "attributes": ["hover"],
         "settings": ["!always_show_minimap_viewport"],
-        "viewport_color": [128, 0, 0, 0.5],
-        "viewport_opacity": { "target": 0.5, "speed": 20.0, "interpolation": "smoothstep" },
+        "viewport_color": [128, 0, 0, 0.6],
+        "viewport_opacity": { "target": 0.6, "speed": 20.0, "interpolation": "smoothstep" },
     },
     {
         "class": "fold_button_control",
@@ -1076,4 +1087,5 @@
         "shadow_offset": [0, 1]
     },
 ]
+
 
