@@ -3,6 +3,15 @@
 
 This is a theme file for Sublime Text 3 (build 3143+) that enable the sidebar to match the colors of the Monokai color scheme 
 
+## Installation ##
+
+```
+Copy Default.sublime-theme and Jordan.syblime-color-scheme to
+~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+
+Then select the Jordan color scheme in Preferences -> Color Scheme
+```
+
 ## How I made this ##
 
 ```
